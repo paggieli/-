@@ -13,6 +13,7 @@
 		847167881E86DC30006C706C /* CalculateFee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847167861E86DC30006C706C /* CalculateFee.xcdatamodeld */; };
 		8471678A1E86DC30006C706C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847167891E86DC30006C706C /* Assets.xcassets */; };
 		8471678D1E86DC30006C706C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8471678B1E86DC30006C706C /* LaunchScreen.storyboard */; };
+		847167951E86DC7E006C706C /* CalculateFee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847167941E86DC7E006C706C /* CalculateFee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		847167891E86DC30006C706C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8471678C1E86DC30006C706C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8471678E1E86DC30006C706C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847167941E86DC7E006C706C /* CalculateFee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateFee.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				8471677F1E86DC30006C706C /* AppDelegate.swift */,
+				847167941E86DC7E006C706C /* CalculateFee.swift */,
 				847167811E86DC30006C706C /* ViewController.swift */,
 				847167831E86DC30006C706C /* Main.storyboard */,
 				847167891E86DC30006C706C /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 				847167821E86DC30006C706C /* ViewController.swift in Sources */,
 				847167881E86DC30006C706C /* CalculateFee.xcdatamodeld in Sources */,
 				847167801E86DC30006C706C /* AppDelegate.swift in Sources */,
+				847167951E86DC7E006C706C /* CalculateFee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
