@@ -17,6 +17,7 @@ class CalculateFee: UIViewController {
     @IBOutlet weak var label_ans: UILabel!
     @IBOutlet weak var label_title: UILabel!
     
+    @IBOutlet weak var txt_TwdvsUsd: UITextField!
     
     
     @IBAction func btn_calc(_ sender: Any) {
@@ -25,8 +26,9 @@ class CalculateFee: UIViewController {
           
             let rate:Double? = Double(txt_rate.text!)
             let curr:Double? = Double(txt_currency.text!)
+            let twd_rate:Double? = Double(txt_TwdvsUsd.text!)
             
-            label_ans.text = "\(( curr! / rate! ) * 30.2)"
+            label_ans.text = "\(( curr! / rate! ) * twd_rate!)"
 
         
             label_ans.isHidden = false
